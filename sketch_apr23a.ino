@@ -16,8 +16,8 @@ TM1637Display time_display(DISPLAY_CLK, TIME_DISPLAY_DIO);  //set up the stopwat
 struct display_data   //structure passed to displayData fucntion containing data
 {
   float spd;
-  byte batt;
-  byte lap;
+  unsigned byte batt;
+  unsigned byte lap;
   unsigned long t;
 };
 
