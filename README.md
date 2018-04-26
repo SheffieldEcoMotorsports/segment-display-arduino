@@ -7,6 +7,6 @@ Speed can be any float up to 9999 (physical limitations of display). Function wi
 
 Lap can be up to 255. Higher and it rolls over to 0.
 
-Batt is same as lap.
+Batt is same as lap but an error of 9999 is displayed if 101+ is reached unless it rolls over. 
 
 Time is required in ms. The function converts this to mm:ss form. Done so that millis() can be used to time car.
